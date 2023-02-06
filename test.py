@@ -32,9 +32,14 @@
 # print(my_list)
 # print(my_str)
 
-word = input("Enter a word: ")
-word2 = input("Enter another word: ")
-if word in word2:
-  print("The first word is contained in the second one")
-else:
-  print("The first word isn't contained in the second one")
+# word = input("Enter a word: ")
+# word2 = input("Enter another word: ")
+# if word in word2:
+#   print("The first word is contained in the second one")
+# else:
+#   print("The first word isn't contained in the second one")
+
+words = input ("Enter a sentence: ")
+number_words= words.split(" ")
+number_of_words = len(number_words)
+print(f"There are {number_of_words} in this sentence")
